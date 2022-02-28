@@ -21,7 +21,11 @@
     <main>
       <div class="container">
         <h2>background colour : <span id="background-text" class="colour">#Ffffff</span></h2>
-        <input type="color" id="html5ColourPicker" value="#FFFFFF"></input>
+        <p id="select-colour">Select colour:</p>
+        <input type="color" id="html5ColourPicker" value="#FFFFFF">
+        <p id="or-hex">Or enter hex code:</p>
+        <input type="text" id="hex-in"   placeholder="e.g. #F12345" minlength="7" maxlength="7">
+        <button id="submit">submit</button>
       </div>
     </main>
     <!-- javascript -->
